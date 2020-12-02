@@ -33,7 +33,7 @@
  
 ---
 ## week_09</br>
-   1.[week_09_circle]<a href=https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_circle.c>week_09_circle</a><br>
+   1.<a href=https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_circle.c>week_09_circle</a><br>
    2.[week_09_dimond](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_dimond.c)<br>
    3.[week_09_pow](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_pow.c)<br>
    4.[week_09_sort](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_sort.c)<br>

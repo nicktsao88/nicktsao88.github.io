@@ -128,6 +128,66 @@ week_10<br>
 
 ---
 
+rand()寫在stdlib.h裡面<br>
+rand()就是亂數，會從電腦的資料庫選擇，不同的資料庫有不同數字<br>
+舉例:
+```c
+#include <stdio.h>
+#include <stdlib.h>
+        int main()
+        {
+                printf("%d\n",rand());
+                printf("%d\n",rand());
+                printf("%d\n",rand());
+                printf("%d\n",rand());
+                printf("%d",rand());
+        }
+```
+輸出:(有可能因為個人電腦資料庫不同而有不同)
+        41<br>
+        18467<br>
+        6334<br>
+        26500<br>
+        19169<br>
+        
+---
+
+同學可以多執行範例幾次看看XD<br>
+不知道有沒有發現呢??每次亂數都一樣ㄟ<br>
+這是因為每次程式執行的時候，都是存取一樣的資料庫喔<br>
+如果想要每次都是不一樣的變數，就必須<br>
+<font size="4">include <time.h></font>喔
+
+```c
+#include <time.h>
+```
+那我們修改上面的範例:
+
+```c
+        #include <stdio.h>
+        #include <stdlib.h>
+        #include <time.h>
+        int main()
+        {
+                srand(time(NULL));
+                printf("%d\n",rand());
+                printf("%d\n",rand());
+                printf("%d\n",rand());
+                printf("%d\n",rand());
+                printf("%d",rand());
+        }
+
+```
+有沒有發現每次都不一樣了呢XD<br>
+srand(time(NULL))的意思是存取現在的時間點資料庫的編號<br>
+如果還是不懂的話，恩~就背下來吧!!XD<br>
+
+
+
+
+        
+
+
 
 
 

@@ -19,25 +19,25 @@
                 return a*2;//把輸進來的數字乘二之後回傳
         }
  ```
-輸入</br>
-   2</br>
-輸出</br>
-   4</br>
+輸入<br>
+   2<br>
+輸出<br>
+   4<br>
    
 ---
 
- 不知道上面的範例，有沒有讓大家懂副程式在幹嘛勒XD</br>
- 簡單的說，副程式就好像一個工具箱，等你主程式呼叫他的時候就存取裡面的工具</br>
- 而要回傳的值，就好像你拿出來的工具一樣</br>
+ 不知道上面的範例，有沒有讓大家懂副程式在幹嘛勒XD<br>
+ 簡單的說，副程式就好像一個工具箱，等你主程式呼叫他的時候就存取裡面的工具<br>
+ 而要回傳的值，就好像你拿出來的工具一樣<br>
  好了，副程式大概就這樣，下面是week_09的程式碼，加油練習ㄅ
  
 ---
 ## week_09</br>
-   1.[week_09_circle](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_circle.c)</br>
-   2.[week_09_dimond](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_dimond.c)</br>
-   3.[week_09_pow](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_pow.c)</br>
-   4.[week_09_sort](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_sort.c)</br>
-   5.[week_09_四邊形](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_%E5%9B%9B%E9%82%8A%E5%BD%A2.c)</br>
+   1.[week_09_circle](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_circle.c)<br>
+   2.[week_09_dimond](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_dimond.c)<br>
+   3.[week_09_pow](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_pow.c)<br>
+   4.[week_09_sort](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_sort.c)<br>
+   5.[week_09_四邊形](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_%E5%9B%9B%E9%82%8A%E5%BD%A2.c)<br>
    
 ---
 
@@ -53,16 +53,16 @@
                 printf("%d",golbal);
         }
 ```
-輸入:</br>
-    2</br>
-輸出:</br>
+輸入:<br>
+    2<br>
+輸出:<br>
     2
     
 ---
-可以看到上面的範例，我主程式裡並沒有設立變數，</br>
-但卻可以輸入與輸出變數，這就是全域變數的意義啦</br>
-可以讓整隻程式都使用到那個變數，但有一個要注意的地方</br>
-因為很容易忘記自己的變數意義，所以題目沒有要求還是用區域變數就好XD</br>
+可以看到上面的範例，我主程式裡並沒有設立變數，<br>
+但卻可以輸入與輸出變數，這就是全域變數的意義啦<br>
+可以讓整隻程式都使用到那個變數，但有一個要注意的地方<br>
+因為很容易忘記自己的變數意義，所以題目沒有要求還是用區域變數就好XD<br>
 
 ---
 

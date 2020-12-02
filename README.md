@@ -156,7 +156,7 @@ rand()就是亂數，會從電腦的資料庫選擇，不同的資料庫有不�
 不知道有沒有發現呢??每次亂數都一樣ㄟ<br>
 這是因為每次程式執行的時候，都是存取一樣的資料庫喔<br>
 如果想要每次都是不一樣的變數，就必須
-<font size="4" color="blue">include <time.h> </font>喔
+<font size="4" color="blue"><code> #include <time.h> </code> </font>喔
 
 ```c
 #include <time.h>

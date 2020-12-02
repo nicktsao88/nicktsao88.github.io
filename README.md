@@ -1,7 +1,7 @@
 ## 歡迎來到文正的超前部屬網站，這裡有這幾周的所有的程式碼和講解，希望大家用的滿意
 副程式
 ---
-副程式的意義，就是把程式模組化，我知道這樣講，絕對不會有人懂我在公三小</br>
+副程式的意義，就是把程式模組化，我知道這樣講，絕對不會有人懂我在公三小<br>
 不囉嗦，上範例:
 ```c
 #include <stdio.h>
@@ -32,8 +32,8 @@
  好了，副程式大概就這樣，下面是week_09的程式碼，加油練習ㄅ
  
 ---
-## week_09</br>
-   1.<a href=https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_circle.c>week_09_circle</a><br>
+## week_09<br>
+   1.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_circle.c">week_09_circle</a><br>
    2.[week_09_dimond](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_dimond.c)<br>
    3.[week_09_pow](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_pow.c)<br>
    4.[week_09_sort](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_sort.c)<br>

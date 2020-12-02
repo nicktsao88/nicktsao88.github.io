@@ -3,30 +3,35 @@
 副程式的意義，就是把程式模組化，我知道這樣講，絕對不會有人懂我在公三小</br>
 不囉嗦，上範例:
 
-    1 #include <stdio.h>
-    2    int sum(int a);
-    3    int main()
-    4    {
-    5       int num=0;//初始化
-    6       int ans=0;
-    7       scanf("%d",&num);//輸入num的值
-    8       ans=sum(num);//等同於num=num*2;
-    9       printf("%d",ans);
-    10   }
-    11   int sum(int a/*num*/)
-    12   {
-    13      return a*2;//把輸進來的數字乘二之後回傳
-    14   }
+  1     #include <stdio.h>
+  2         int sum(int a);
+  3         int main()
+  4         {
+  5             int num=0;//初始化
+  6             int ans=0;
+  7             scanf("%d",&num);//輸入num的值
+  8             ans=sum(num);//呼叫副程式sum()，等同於num=num*2;
+  9             printf("%d",ans);
+  10        }
+  11        int sum(int a/*num*/)
+  12        {
+  13            return a*2;//把輸進來的數字乘二之後回傳
+  14        }
+  
+---
 輸入</br>
    2</br>
 輸出</br>
    4</br>
+   
 ---
+
  不知道上面的範例，有沒有讓大家懂副程式在幹嘛勒XD</br>
  簡單的說，副程式就好像一個工具箱，等你主程式呼叫他的時候就存取裡面的工具</br>
  而要回傳的值，就好像你拿出來的工具一樣</br>
+ 好了，副程式大概就這樣，下面是week_09的程式碼，加油練習ㄅ
  
- ---
+---
          
 
 

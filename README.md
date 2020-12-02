@@ -1,7 +1,7 @@
 ## 歡迎來到文正的超前部屬網站，這裡有這幾周的所有的程式碼和講解，希望大家用的滿意
 副程式
 ---
-副程式的意義，就是把程式模組化，我知道這樣講，絕對不會有人懂我在公三小<br>
+副程式的意義，就是把程式模組化，我知道這樣講，絕對不會有人懂我在公三小??<br>
 不囉嗦，上範例:
 ```c
 #include <stdio.h>
@@ -33,11 +33,11 @@
  
 ---
 ## week_09<br>
-   1.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_circle.c">week_09_circle</a><br>
-   2.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_dimond.c">week_09_dimond</a><br>
-   3.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_pow.c">week_09_pow</a><br>
-   4.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_sort.c">week_09_sort</a><br>
-   5.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_%E5%9B%9B%E9%82%8A%E5%BD%A2.c">week_09_四邊形</a><br>
+   1.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_circle.c">circle</a><br>
+   2.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_dimond.c">dimond</a><br>
+   3.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_pow.c">pow</a><br>
+   4.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_sort.c">sort</a><br>
+   5.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_%E5%9B%9B%E9%82%8A%E5%BD%A2.c">四邊形</a><br>
    
 ---
 
@@ -107,9 +107,19 @@
 在主程式，副程式add()跟副程式mulipe()裡都有變數叫做a,b，酷ㄅ<br>
 這就是區域變數的意義啦，區域變數只會活在你設立的大括弧裡面喔XD<br>
 所以我們最常用的才會是區域變數，因為不用擔心會衝突到<br>
-但這裡要注意一點， <font size="4"><font color="red"> 區域變數不能跟全域變數同名 </font></font> 要牢記
+但這裡要注意一點， <font size="4"><font color="red"> 區域變數不能跟全域變數同名 </font></font> 要牢記<br>
+好了全域變數跟區域變數到這就結束啦，是不是很簡單呢?XD<br>
+接下來就是第十周的所有程式碼啦，加油!!!!<br>
+
+##week_10<br>
+---
+1.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_10/week_10_%E4%B8%8A%E9%80%B1%E8%A4%87%E7%BF%92_%E5%B7%A6%E9%82%8A.c">上週複習_左邊</a><br>
+2.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_10/week_10_%E8%A8%88%E7%AE%97%E6%A9%9F.c">計算機</a><br>
+3.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_10/week_10_%E8%A8%88%E7%AE%97%E6%A9%9F_%E5%85%A8%E5%9F%9F%E8%AE%8A%E6%95%B8.c">計算機_全域變數</a><br>
+4.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_10/week_10_%E9%80%B2%E9%9A%8E%E9%A1%8C.c">進階題</a><br>
 
 ---
+
 
 
         

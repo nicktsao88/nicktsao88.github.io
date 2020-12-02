@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 
 # week_09
-  [week_09_circle](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_circle.c"week_09_circle")
+  [week_09_circle](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_circle.c)
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for

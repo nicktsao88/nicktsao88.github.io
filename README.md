@@ -111,7 +111,7 @@
 好了全域變數跟區域變數到這就結束啦，是不是很簡單呢?XD<br>
 接下來就是第十周的所有程式碼啦，加油!!!!<br>
 
-#week_10<br>
+week_10<br>
 ---
 1.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_10/week_10_%E4%B8%8A%E9%80%B1%E8%A4%87%E7%BF%92_%E5%B7%A6%E9%82%8A.c">上週複習_左邊</a><br>
 2.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_10/week_10_%E8%A8%88%E7%AE%97%E6%A9%9F.c">計算機</a><br>

@@ -12,7 +12,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # week_09
-  <\a href=https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_circle.c>week_09_circle</a>
+  <a href=https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_09/week_09_circle.c>week_09_circle</a>
 ## Header 2
 ### Header 3
 

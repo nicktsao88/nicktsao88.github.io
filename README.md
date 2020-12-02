@@ -65,6 +65,51 @@
 因為很容易忘記自己的變數意義，所以題目沒有要求還是用區域變數就好XD<br>
 
 ---
+區域變數
+---
+區域變數就很熟悉了八，區域變數就是我們平常在主程式跟副程式裡設立的變數啦<br>
+例如:
+```c
+#include <stdio.h>
+        int add(int a,int b);
+        int mulipe(int a,int b);
+        int main()
+        {
+        
+                int a=0,b=0;//初始化區域變數a,b
+                
+                printf("a:");
+                scanf("%d",&a);//輸入a
+                printf("b:");
+                scanf("%d",&b);//輸入b
+                printf("add:%d",add(a,b)/*呼叫add()*/);
+                printf("mulipe:%d",mulipe(a,b)/*呼叫mulipe()*/);
+                
+        }
+        int add(int a,int b)
+        {
+                return a+b;//回傳a+b
+        }
+        int mulipe(int a,int b)
+        {
+                return a*b;//回傳a*b
+        }
+```
+輸入:<br>
+        a:5<br>
+        b:4<br>
+輸出:<br>
+        add:9<br>
+        mulipe:20<br>
+        
+        ---
+有沒有發現呢?<br>
+在主程式，副程式add()跟副程式mulipe()裡都有變數叫做a,bㄟ<br>
+這就是區域變數的意義啦，區域變數只會活在你設立的大括弧裡面喔XD<br>
+所以我們最常用的才會是區域變數，因為不用擔心會衝突到<br>
+但這裡要注意一點， <h3> 區域變數不能跟全域變數同名 </h3> 要牢記 
+        
+     
 
 
 

@@ -2,22 +2,22 @@
 ---
 副程式的意義，就是把程式模組化，我知道這樣講，絕對不會有人懂我在公三小</br>
 不囉嗦，上範例:
-'''
-01     #include <stdio.h>
-02         int sum(int a);
-03         int main()
-04         {
-05             int num=0;//初始化
-06             int ans=0;
-07             scanf("%d",&num);//輸入num的值
-08             ans=sum(num);//呼叫副程式sum()，等同於num=num*2;
-09             printf("%d",ans);
-10        }
-11        int sum(int a/*num*/)
-12        {
-13            return a*2;//把輸進來的數字乘二之後回傳
-14        }
-'''  
+
+   01     #include <stdio.h>
+   02         int sum(int a);
+   03         int main()
+   04         {
+   05             int num=0;//初始化
+   06             int ans=0;
+   07             scanf("%d",&num);//輸入num的值
+   08             ans=sum(num);//呼叫副程式sum()，等同於num=num*2;
+   09             printf("%d",ans);
+   10        }
+   11        int sum(int a/*num*/)
+   12        {
+   13            return a*2;//把輸進來的數字乘二之後回傳
+   14        }
+   
 ---
 輸入</br>
    2</br>

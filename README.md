@@ -4,20 +4,20 @@
 副程式的意義，就是把程式模組化，我知道這樣講，絕對不會有人懂我在公三小</br>
 不囉嗦，上範例:
 ```c
-        #include <stdio.h>
-            int sum(int a);
-            int main()
-            {
+#include <stdio.h>
+        int sum(int a);
+        int main()
+        {
                 int num=0;//初始化
                 int ans=0;
                 scanf("%d",&num);//輸入num的值
                 ans=sum(num);//呼叫副程式sum()，等同於num=num*2;
                 printf("%d",ans);
-           }
-           int sum(int a/*num*/)
-           {
-               return a*2;//把輸進來的數字乘二之後回傳
-           }
+        }
+        int sum(int a/*num*/)
+        {
+                return a*2;//把輸進來的數字乘二之後回傳
+        }
  ```
 ---
 輸入</br>

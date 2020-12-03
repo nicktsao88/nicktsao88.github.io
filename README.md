@@ -30,7 +30,34 @@
  不知道上面的範例，有沒有讓大家懂副程式在幹嘛勒XD<br>
  簡單的說，副程式就好像一個工具箱，等你主程式呼叫他的時候就存取裡面的工具<br>
  而要回傳的值，就好像你拿出來的工具一樣<br>
- 好了，副程式大概就這樣，下面是week_09的程式碼，加油練習ㄅ
+ 副程式也有好幾個型態:int、float、void。<br>
+ int跟float都能懂吧XD<br>
+ 至於void就是沒有回傳值的副程式<br>
+ 舉例:<br>
+```c
+#include <stdio.h>
+        void sum(int a);
+        int main()
+        {
+                int num=0;//初始化
+                scanf("%d",&num);
+                sum(num);
+        }
+        void sum(int a)
+        {
+                printf("%d",a*2);
+        }
+```
+輸入<br>
+   2<br>
+輸出<br>
+   4<br>
+   
+---
+有沒有發現這個舉例跟上面舉例的差別呢??XD<br>
+int裡的副程式裡有<font size="4" color="blue">return </font><br>
+而void裡沒有喔XD，區別就是這樣，恩恩<br>
+好了，副程式大概就這樣，下面是week_09的程式碼，加油練習ㄅ
  
 ---
 ## week_09<br>
@@ -128,7 +155,7 @@ week_10<br>
 
 ---
 
-rand()寫在stdlib.h裡面<br>
+rand()被寫在stdlib.h裡面<br>
 rand()就是亂數，會從電腦的資料庫選擇，不同的資料庫有不同數字<br>
 舉例:
 ```c

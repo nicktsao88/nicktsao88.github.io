@@ -287,6 +287,14 @@ bubble_sort(泡沫排序法)
 
 ---
 
+## week_11
+---
+1.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_11/%E9%9A%A8%E6%A9%9F.c">隨機</a><br>
+2.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_11/%E8%AA%B2%E5%A0%82%E7%BF%92%E9%A1%8C_%E7%8C%9C%E6%95%B8%E5%AD%97.c">猜數字</a><br>
+3.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_11/%E9%AA%B0%E5%AD%90.c">骰子</a><br>
+4.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_11/bubblesort.c">bubble_sort</a><br>
+
+
 
 
 

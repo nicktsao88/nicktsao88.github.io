@@ -287,7 +287,7 @@ bubble_sort(泡沫排序法)
 
 在第一層迴圈i=4<br>
 接著進入第二層迴圈j=0<br>
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/SmartSelect_20201203-125601_Samsung%20Notes.jpg">
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/SmartSelect_20201203-125601_Samsung%20Notes.jpg" width="150" height="75">
 
 繼續跑第二層迴圈<br>
 i一樣為4，但j要加一<br>

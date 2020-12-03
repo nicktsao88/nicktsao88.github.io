@@ -281,17 +281,12 @@ bubble_sort(泡沫排序法)
         5 4 3 2 1<br>
         1 2 3 4 5<br>
 好，我知道看完上面的程式碼，你還是霧煞煞啦XD<br>
-下面用圖解說明吧!!!<br>
-初始化的陣列樣貌:kk<br>
-<img src="https://photos.google.com/photo/AF1QipM3GdCrgvN7Jge8bkL-A5MZUIhnCrQJQYoTCvQ" width="150" height="75">
+但我弄不出圖解XD<br>
+所以有問題再來找我XD<br>
+好了，week_11就這樣了<br>
 
-在第一層迴圈i=4<br>
-接著進入第二層迴圈j=0<br>
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/SmartSelect_20201203-125601_Samsung%20Notes.jpg" width="150" height="75">
+---
 
-繼續跑第二層迴圈<br>
-i一樣為4，但j要加一<br>
-所以i:4，j:1<br>
 
 
 

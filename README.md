@@ -294,6 +294,8 @@ bubble_sort(泡沫排序法)
 3.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_11/%E9%AA%B0%E5%AD%90.c">骰子</a><br>
 4.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_11/bubblesort.c">bubble_sort</a><br>
 
+---
+![image](https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/SmartSelect_20201203-125548_Samsung%20Notes.jpg)
 
 
 

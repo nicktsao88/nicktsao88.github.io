@@ -283,6 +283,8 @@ bubble_sort(泡沫排序法)
 好，我知道看完上面的程式碼，你還是霧煞煞啦XD<br>
 下面用圖解說明吧!!!<br>
 
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/SmartSelect_20201203-125548_Samsung%20Notes.jpg">
+
 
 
 

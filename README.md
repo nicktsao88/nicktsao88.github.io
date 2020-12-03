@@ -283,7 +283,7 @@ bubble_sort(泡沫排序法)
 好，我知道看完上面的程式碼，你還是霧煞煞啦XD<br>
 下面用圖解說明吧!!!<br>
 初始化的陣列樣貌:hh<br>
-<img src="https://nicktsao88.blogspot.com" width="150" height="75">
+<img src="https://photos.google.com/photo/AF1QipM3GdCrgvN7Jge8bkL-A5MZUIhnCrQJQYoTCvQ" width="150" height="75">
 
 在第一層迴圈i=4<br>
 接著進入第二層迴圈j=0<br>

@@ -349,6 +349,7 @@ j=4不符合條件，跳出裡面那層迴圈<br>
 這樣跑完一次，會得到以下陣列<br>
 <img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/7.jpg?raw=true" width="150" height="75" border="0"><br>
 接下來i會等於2繼續進到裡面那層迴圈<br>
+#### 努力更新中，敬請期待，希望星期六可以更新完，累阿
 
 
 

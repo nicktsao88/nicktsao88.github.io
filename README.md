@@ -295,7 +295,7 @@ bubble_sort(泡沫排序法)
 4.<a href="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/week_11/bubblesort.c">bubble_sort</a><br>
 
 ---
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/1.png" width="150" height="75" border="">
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/1.png" width="150" height="75" border="0">
 
 
 

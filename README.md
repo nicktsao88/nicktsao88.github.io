@@ -282,7 +282,7 @@ bubble_sort(泡沫排序法)
         1 2 3 4 5<br>
 好，我知道看完上面的程式碼，你還是霧煞煞啦XD<br>
 下面用圖解說明吧!!!<br>
-初始化的陣列樣貌:hh<br>
+初始化的陣列樣貌:kk<br>
 <img src="https://photos.google.com/photo/AF1QipM3GdCrgvN7Jge8bkL-A5MZUIhnCrQJQYoTCvQ" width="150" height="75">
 
 在第一層迴圈i=4<br>

@@ -278,12 +278,20 @@ bubble_sort(泡沫排序法)
 31    }
 ```
 輸出:<br>
-        5 4 3 2 1
-        1 2 3 4 5 
+        5 4 3 2 1<br>
+        1 2 3 4 5<br>
 好，我知道看完上面的程式碼，你還是霧煞煞啦XD<br>
 下面用圖解說明吧!!!<br>
+初始化的陣列樣貌:<br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/SmartSelect_20201203-125548_Samsung%20Notes.jpg"width="200" height="100">
 
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/SmartSelect_20201203-125548_Samsung%20Notes.jpg">
+在第一層迴圈i=4<br>
+接著進入第二層迴圈j=0<br>
+<img src=https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/SmartSelect_20201203-125601_Samsung%20Notes.jpg>
+
+繼續跑第二層迴圈<br>
+i一樣為4，但j要加一<br>
+所以i:4，j:1<br>
 
 
 

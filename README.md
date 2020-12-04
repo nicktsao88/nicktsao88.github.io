@@ -332,7 +332,7 @@ bubble_sort(泡沫排序法)
 進入第一層的迴圈與第二層的迴圈<br>
 ### i=4，j=0<br>
 j會與j的下一項比，5>4要交換<br>
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="75" border="0"><br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="100" border="0"><br>
 接下來，裡面那層還沒跑完喔XD<br>
 繼續比較<br>
 ### i=4，j=1<br>

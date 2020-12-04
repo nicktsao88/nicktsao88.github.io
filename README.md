@@ -452,7 +452,7 @@ j繼續加1，<font size="4">j=1</font><br>
 
 ```
 這樣跑完第四次就結束啦XD<br>
-因為i的條件是</font size="4">i>0</font><br>
+因為i的條件是</font size="4"> i要大於0 </font><br>
 但0沒有大於0，所以就跳出啦XD<br>
 會得到下列排完的陣列<br>
 ```c

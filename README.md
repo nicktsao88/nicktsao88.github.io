@@ -15,7 +15,7 @@
                 ans=sum(num);//呼叫副程式sum()，等同於num=num*2;
                 printf("%d",ans);
         }
-        int sum(int a/*num*/)
+        int sum(int a)
         {
                 return a*2;//把輸進來的數字乘二之後回傳
         }
@@ -328,28 +328,28 @@ bubble_sort(泡沫排序法)
 好，我知道看完上面的程式碼，你還是霧煞煞啦XD<br>
 接下來我們圖解一次ㄅ<br>
 剛開始是初始化的陣列<br>
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/1.jpg?raw=true" width="150" height="75" border="0"><br>
+<img src="" width="150" height="75" border="0"><br>
 進入第一層的迴圈與第二層的迴圈<br>
 ### i=4，j=0<br>
 j會與j的下一項比，5>4要交換<br>
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/2.jpg?raw=true" width="150" height="75" border="0"><br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="75" border="0"><br>
 接下來，裡面那層還沒跑完喔XD<br>
 繼續比較<br>
 ### i=4，j=1<br>
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/3.jpg?raw=true" width="150" height="75" border="0"><br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/2.jpg?raw=true" width="150" height="75" border="0"><br>
 裡面的迴圈繼續跑:<br>
 ### i=4，j=2<br>
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/4.jpg?raw=true" width="150" height="75" border="0"><br>
+<img src="" width="150" height="75" border="0"><br>
 迴圈繼續跑，要跑到j沒有小於4為止
 ### i=4，j=3<br>
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/5.jpg?raw=true" width="150" height="75" border="0"><br>
+<img src="" width="150" height="75" border="0"><br>
 接下來j繼續加一<br>
 j=4不符合條件，跳出裡面那層迴圈<br>
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/6.jpg?raw=true" width="150" height="75" border="0"><br>
+<img src="" width="150" height="75" border="0"><br>
 這樣跑完一次，會得到以下陣列<br>
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/picture/7.jpg?raw=true" width="150" height="75" border="0"><br>
+<img src="" width="150" height="75" border="0"><br>
 接下來i會等於2繼續進到裡面那層迴圈<br>
-#### 努力更新中，敬請期待，希望星期六可以更新完，累阿
+
 
 
 

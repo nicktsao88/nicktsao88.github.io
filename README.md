@@ -328,8 +328,8 @@ bubble_sort(泡沫排序法)
 好，我知道看完上面的程式碼，你還是霧煞煞啦XD<br>
 接下來我們圖解一次ㄅ<br>
 圖片上的<font color="red">紅色</font>是已經排序完的<br>
-<font color="green">綠色</font>是第j項
-<font color="blue">藍色</font>是第j+1項
+圖片上的<font color="green">綠色</font>是第j項<br>
+圖片上的<font color="blue">藍色</font>是第j+1項<br>
 剛開始是初始化的陣列<br>
 ```c
 5 4 3 2 1

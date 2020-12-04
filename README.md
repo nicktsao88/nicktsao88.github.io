@@ -348,7 +348,7 @@ j會與j的下一項比，5>4要交換<br>
 迴圈繼續跑，要跑到j沒有小於4為止
 ### i=4，j=3<br>
 <img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
-j繼續加1，<font size="4">j=4</font><br>
+j繼續加1，<font size="7">j=4</font><br>
 4沒有小於4，跳出裡面那層迴圈<br>
 ```c
 12for(int i=4;i>0;i--)//i=4
@@ -380,7 +380,7 @@ j繼續加1，<font size="4">j=4</font><br>
 繼續跑XD<br>
 ### i=3；j=2
 <img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
-j繼續加1，<font size="4">j=3</font><br>
+j繼續加1，<font size="7">j=3</font><br>
 3沒有小於3，跳出裡面那層迴圈<br>
 ```c
 12for(int i=4;i>0;i--)//i=3
@@ -408,7 +408,7 @@ j繼續加1，<font size="4">j=3</font><br>
 繼續跑裡面的迴圈，現在j要大於等於2才會跳出迴圈<br>
 ### i=2；j=1
 <img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
-j繼續加1，<font size="4">j=2</font><br>
+j繼續加1，<font size="7">j=2</font><br>
 2沒有小於2跳出裡面那層迴圈<br>
 ```c
 12for(int i=4;i>0;i--)//i=2
@@ -433,7 +433,7 @@ j繼續加1，<font size="4">j=2</font><br>
 i會等於1繼續跑裡面那層迴圈<br>
 ### i=1；j=0
 <img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
-j繼續加1，<font size="4">j=1</font><br>
+j繼續加1，<font size="7">j=1</font><br>
 1沒有小於1跳出裡面那層迴圈<br>
 ```c
 12for(int i=4;i>0;i--)//i=1
@@ -452,7 +452,7 @@ j繼續加1，<font size="4">j=1</font><br>
 
 ```
 這樣跑完第四次就結束啦XD<br>
-因為i的條件是</font size="4"> i要大於0 </font><br>
+因為i的條件是<font size="7"> i>0 </font><br>
 但0沒有大於0，所以就跳出啦XD<br>
 會得到下列排完的陣列<br>
 ```c

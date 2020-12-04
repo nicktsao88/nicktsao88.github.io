@@ -254,7 +254,7 @@ bubble_sort(泡沫排序法)
 08    }
 ```
 輸出:<br>
-    5 5 <br>
+    3 3 <br>
 
 ---
 大家一定會覺得很奇怪，我明明就讓它互相等於啦<br>
@@ -327,8 +327,13 @@ bubble_sort(泡沫排序法)
         1 2 3 4 5<br>
 好，我知道看完上面的程式碼，你還是霧煞煞啦XD<br>
 接下來我們圖解一次ㄅ<br>
+圖片上的<font color="red">紅色</font>是已經排序完的<br>
+<font color="green">綠色</font>是第j項<br>
+<font color="blue">藍色</font>是第j+項<br>
 剛開始是初始化的陣列<br>
-<img src="" width="150" height="75" border="0"><br>
+```c
+5 4 3 2 1
+```
 進入第一層的迴圈與第二層的迴圈<br>
 ### i=4，j=0<br>
 j會與j的下一項比，5>4要交換<br>
@@ -336,26 +341,126 @@ j會與j的下一項比，5>4要交換<br>
 接下來，裡面那層還沒跑完喔XD<br>
 繼續比較<br>
 ### i=4，j=1<br>
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/2.jpg?raw=true" width="150" height="75" border="0"><br>
-裡面的迴圈繼續跑:<br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
+裡面的迴圈繼續跑XD<br>
 ### i=4，j=2<br>
-<img src="" width="150" height="75" border="0"><br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
 迴圈繼續跑，要跑到j沒有小於4為止
 ### i=4，j=3<br>
-<img src="" width="150" height="75" border="0"><br>
-接下來j繼續加一<br>
-j=4不符合條件，跳出裡面那層迴圈<br>
-<img src="" width="150" height="75" border="0"><br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
+j繼續加1，<font size="4">j=4</font><br>
+4沒有小於4，跳出裡面那層迴圈<br>
+```c
+12for(int i=4;i>0;i--)//i=4
+13            {
+14                for(int j=0;j<i;j++)//j要小於4，4沒有小於4
+15                {
+16                    if(a[j]>a[j+1])
+17                    {
+18                        int temp=a[j+1];
+19                        a[j+1]=a[j];
+20                        a[j]=temp;
+21                            
+22                    }
+23                }
+24            }//泡沫排序法
+
+```
+
 這樣跑完一次，會得到以下陣列<br>
-<img src="" width="150" height="75" border="0"><br>
+```c
+4 3 2 1 5
+```
+接下來i會等於3繼續進到裡面那層迴圈<br>
+### i=3；j=0
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
+繼續跑裡面那層迴圈，現在j大於等於3就會跳出迴圈了<br>
+### i=3；j=1
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
+繼續跑XD<br>
+### i=3；j=2
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
+j繼續加1，<font size="4">j=3</font><br>
+3沒有小於3，跳出裡面那層迴圈<br>
+```c
+12for(int i=4;i>0;i--)//i=3
+13            {
+14                for(int j=0;j<i;j++)//j要小於3，3沒有小於3
+15                {
+16                    if(a[j]>a[j+1])
+17                    {
+18                        int temp=a[j+1];
+19                        a[j+1]=a[j];
+20                        a[j]=temp;
+21                            
+22                    }
+23                }
+24            }//泡沫排序法
+
+```
+這樣跑完兩次，會得到下列陣列:<br>
+```c
+3 2 1 4 5
+```
 接下來i會等於2繼續進到裡面那層迴圈<br>
+### i=2；j=0
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
+繼續跑裡面的迴圈，現在j要大於等於2才會跳出迴圈<br>
+### i=2；j=1
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
+j繼續加1，<font size="4">j=2</font><br>
+2沒有小於2跳出裡面那層迴圈<br>
+```c
+12for(int i=4;i>0;i--)//i=2
+13            {
+14                for(int j=0;j<i;j++)//j要小於2，2沒有小於2
+15                {
+16                    if(a[j]>a[j+1])
+17                    {
+18                        int temp=a[j+1];
+19                        a[j+1]=a[j];
+20                        a[j]=temp;
+21                            
+22                    }
+23                }
+24            }//泡沫排序法
 
+```
+這樣跑完第三次，會得到下列陣列:<br>
+```c
+2 1 3 4 5
+```
+i會等於1繼續跑裡面那層迴圈<br>
+### i=1；j=0
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
+j繼續加1，<font size="4">j=1</font><br>
+1沒有小於1跳出裡面那層迴圈<br>
+```c
+12for(int i=4;i>0;i--)//i=1
+13            {
+14                for(int j=0;j<i;j++)//j要小於1，1沒有小於1
+15                {
+16                    if(a[j]>a[j+1])
+17                    {
+18                        int temp=a[j+1];
+19                        a[j+1]=a[j];
+20                        a[j]=temp;
+21                            
+22                    }
+23                }
+24            }//泡沫排序法
 
-
-
-
-
-好了，week_11就這樣了<br>
+```
+這樣跑完第四次就結束啦XD<br>
+因為i的條件是</font size="4">i>0</font><br>
+但0沒有大於0，所以就跳出啦XD<br>
+會得到下列排完的陣列<br>
+```c
+1 2 3 4 5
+```
+好了，不知道這樣圖解法，有沒有讓你更了解呢XD<br>
+考試必考喔!!!<br>
+好了，week_11就這樣了，加油!!加油!!<br>
 
 ---
 

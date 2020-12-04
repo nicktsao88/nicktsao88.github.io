@@ -329,7 +329,7 @@ bubble_sort(泡沫排序法)
 接下來我們圖解一次ㄅ<br>
 圖片上的<font color="red">紅色</font>是已經排序完的<br>
 <font color="green">綠色</font>是第j項<br>
-<font color="blue">藍色</font>是第j+項<br>
+<font color="blue">藍色</font>是第j+1項<br>
 剛開始是初始化的陣列<br>
 ```c
 5 4 3 2 1
@@ -341,14 +341,14 @@ j會與j的下一項比，5>4要交換<br>
 接下來，裡面那層還沒跑完喔XD<br>
 繼續比較<br>
 ### i=4，j=1<br>
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/2.jpg?raw=true" width="150" height="120" border="0"><br>
 裡面的迴圈繼續跑XD<br>
 ### i=4，j=2<br>
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/3.jpg?raw=true" width="150" height="120" border="0"><br>
 迴圈繼續跑，要跑到j沒有小於4為止
 ### i=4，j=3<br>
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
-j繼續加1，<font size="7">j=4</font><br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/4.jpg?raw=true" width="150" height="120" border="0"><br>
+j繼續加1，<font size="5">j=4</font><br>
 4沒有小於4，跳出裡面那層迴圈<br>
 ```c
 12for(int i=4;i>0;i--)//i=4
@@ -373,14 +373,14 @@ j繼續加1，<font size="7">j=4</font><br>
 ```
 接下來i會等於3繼續進到裡面那層迴圈<br>
 ### i=3；j=0
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/5.jpg?raw=true" width="150" height="120" border="0"><br>
 繼續跑裡面那層迴圈，現在j大於等於3就會跳出迴圈了<br>
 ### i=3；j=1
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/6.jpg?raw=true" width="150" height="120" border="0"><br>
 繼續跑XD<br>
 ### i=3；j=2
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
-j繼續加1，<font size="7">j=3</font><br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/7.jpg?raw=true" width="150" height="120" border="0"><br>
+j繼續加1，<font size="5">j=3</font><br>
 3沒有小於3，跳出裡面那層迴圈<br>
 ```c
 12for(int i=4;i>0;i--)//i=3
@@ -404,11 +404,11 @@ j繼續加1，<font size="7">j=3</font><br>
 ```
 接下來i會等於2繼續進到裡面那層迴圈<br>
 ### i=2；j=0
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/8.jpg?raw=true" width="150" height="120" border="0"><br>
 繼續跑裡面的迴圈，現在j要大於等於2才會跳出迴圈<br>
 ### i=2；j=1
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
-j繼續加1，<font size="7">j=2</font><br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/9.jpg?raw=true" width="150" height="120" border="0"><br>
+j繼續加1，<font size="5">j=2</font><br>
 2沒有小於2跳出裡面那層迴圈<br>
 ```c
 12for(int i=4;i>0;i--)//i=2
@@ -432,8 +432,8 @@ j繼續加1，<font size="7">j=2</font><br>
 ```
 i會等於1繼續跑裡面那層迴圈<br>
 ### i=1；j=0
-<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/1.jpg?raw=true" width="150" height="120" border="0"><br>
-j繼續加1，<font size="7">j=1</font><br>
+<img src="https://github.com/nicktsao88/nicktsao88.github.io/blob/main/code_picture/10.jpg?raw=true" width="150" height="120" border="0"><br>
+j繼續加1，<font size="5">j=1</font><br>
 1沒有小於1跳出裡面那層迴圈<br>
 ```c
 12for(int i=4;i>0;i--)//i=1
@@ -452,7 +452,7 @@ j繼續加1，<font size="7">j=1</font><br>
 
 ```
 這樣跑完第四次就結束啦XD<br>
-因為i的條件是<font size="7"> i>0 </font><br>
+因為i的條件是<font size="5"> i>0 </font><br>
 但0沒有大於0，所以就跳出啦XD<br>
 會得到下列排完的陣列<br>
 ```c
